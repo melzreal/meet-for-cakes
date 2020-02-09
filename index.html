@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/94a0f12940.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+
+    <title>MeetForCakes</title>
+  </head>
+
+  <body>
+    <nav class="navbar-expand-sm navbar-dark bg-dark mb-3">
+      <div class="container">
+        <a href="index.html" class="navbar-brand ">
+          Catchup with Friends or Fiends
+        </a>
+      </div>
+    </nav>
+
+    <div class="container searchContainer">
+      <div class="search card card-body">
+        <h1>Search Users in Your area</h1>
+        <p class="lead">Enter a city to fetch a user free this weekend</p>
+        <input
+          type="text"
+          id="searchUser"
+          class="form-control"
+          placeholder="city to search"
+        />
+      </div>
+      <br />
+      <div id="profile"></div>
+    </div>
+
+    <footer class="mt05 p3 text-center bg-light">
+      Cake Away &copy;
+    </footer>
+
+    <span id="year"> </span>
+    <script
+      src="http://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="server.js"></script>
+  </body>
+</html>
